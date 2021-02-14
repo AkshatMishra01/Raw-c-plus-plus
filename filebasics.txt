@@ -1,0 +1,6 @@
+step 1: Include the fsrteam library (The library used for file handling)
+step 2: create an object of the fstream class
+step 3: specify the path and mode of operation of the file like ""Syntax for file creation: FilePointer.open("Path",ios::mode);"" 
+eg:
+file opened for writing: st.open("D:\filename.txt",ios::out);
+here, filename.txt is the name of the file and ios::out is the mode of operation
