@@ -1,10 +1,9 @@
-//file handling in c++
 #include <bits/stdc++.h>
 using namespace std;
 int main()
 {
-	fstream fio; //object declaration of the fstream class already included in <bits/stdc++.h> 
-	string text; // string class object declaration
+	fstream fio; 
+	string text; 
 	
 	fio.open("sample.cpp", ios::trunc | ios::out | ios::in); // default way of entering text in a file using the open function
 	
